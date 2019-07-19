@@ -1,6 +1,6 @@
 {
   "name": "@fusionworks/ra-s3-input",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "nzuza",
   "private": false,
   "main": "index.js",
