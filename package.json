@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "author": "nzuza",
   "private": false,
-  "main": "dist/index.js",
+  "main": "index.js",
   "homepage": "https://github.com/FusionWorks/react-admin-s3-file-upload#readme",
   "description": "React-admin field/input to show markers on a map.",
   "license": "ISC",
