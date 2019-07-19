@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-// import fileImg from './img/file.png';
 import { isImage } from './utils';
 
 const FileItem = ({
@@ -12,8 +11,6 @@ const FileItem = ({
   deleteFile,
   fileCoverImg,
 }) => {
-  console.log('fileinput -> fileList -> fileItem ->',fileCoverImg);
-
   const serverUrl = `${apiRoot}/s3/uploads/${file.url}`;
   const isImg = isImage(serverUrl);
   const backgroundImg = isImg ? serverUrl : fileCoverImg;

@@ -77,8 +77,6 @@ class FileUploader extends Component {
     const { classes, disabled, uploadOptions, apiRoot, fileCoverImg } = this.props;
     const { fileList, loading, percent } = this.state;
 
-    console.log(this.props);
-    console.log('fileinput ->',fileCoverImg);
     const s3InputOptions = {
       signingUrlMethod: "GET",
       accept: "*/*",
@@ -104,13 +102,6 @@ class FileUploader extends Component {
             classes={classes}
           />
         }
-        {/* {!!fileList.length &&
-          <DownloadAllBtn
-            serverUrl={apiRoot}
-            folderPath={uploadOptions.s3path}
-            classes={classes}
-          />
-        } */}
         <FileList
           apiRoot={apiRoot}
           fileCoverImg={fileCoverImg}

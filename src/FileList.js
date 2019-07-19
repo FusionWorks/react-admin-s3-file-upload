@@ -23,8 +23,6 @@ class FileList extends Component {
     const { files, deleteFile, disabled, classes, apiRoot, fileCoverImg } = this.props;
     const { gallery, galleryImg } = this.state;
 
-    console.log('fileinput -> fileList ->',fileCoverImg);
-
     return (files.length > 0) ?
     <>
       <ul className={classes.addedFiles}>
