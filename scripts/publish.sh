@@ -1,6 +1,6 @@
 #!/bin/bash
 PACKAGE_VERSION=$(node -p -e "require('./package.json').version")
-REMOTE_VERSION=$(npm show @fusionworks/react-admin-s3-file-upload version)
+REMOTE_VERSION=$(npm show @fusionworks/ra-s3-input version)
 LAST_AUTHOR="$(git log -1 --pretty=format:'%an')"
 echo "Local version: $PACKAGE_VERSION"
 echo "Remote version: $REMOTE_VERSION"
