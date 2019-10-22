@@ -1,6 +1,6 @@
 # @fusionworks/ra-s3-input
 It's an input file for [react-admin](https://github.com/marmelab/react-admin) that uploads files on S3.
-This component is an wrapper for [react-s3-uploader](https://github.com/odysseyscience/react-s3-uploader) and uses (react-image-lightbox)[https://github.com/frontend-collective/react-image-lightbox] for image galeries.
+This component is an wrapper for [react-s3-uploader](https://github.com/odysseyscience/react-s3-uploader) and uses [react-image-lightbox](https://github.com/frontend-collective/react-image-lightbox) for image galeries.
 
 ## Install
 
