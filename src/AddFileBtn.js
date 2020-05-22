@@ -9,7 +9,7 @@ const AddFileBtn = ({ classes, label, uploadOptions }) => (
       color='primary'
     >
       <label
-        htmlFor="filesInput"
+        htmlFor={uploadOptions.id}
         style={{ padding: '3px 10px', display: 'inline-block' }}
       >
         {label}
