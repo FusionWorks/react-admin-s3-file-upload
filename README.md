@@ -1,6 +1,6 @@
 # @fusionworks/ra-s3-input
 It's an input file for [react-admin](https://github.com/marmelab/react-admin) that uploads files on S3.
-This component is an wrapper for [react-s3-uploader](https://github.com/odysseyscience/react-s3-uploader) and uses [react-image-lightbox](https://github.com/frontend-collective/react-image-lightbox) for image galeries.
+This component is an wrapper for [react-s3-uploader](https://github.com/odysseyscience/react-s3-uploader) and uses [react-image-lightbox](https://github.com/frontend-collective/react-image-lightbox) for image galleries.
 
 ## Install
 
@@ -55,7 +55,7 @@ export const EntityEdit = props => (
   </Edit>
 );
 ```
-And There is a componont for simple showing Files, without ability to add/delete files:
+And There is a component for simple showing Files, without the ability to add/delete files:
 
 ```jsx
 
@@ -77,9 +77,9 @@ export const ShowEntity = props => (
   </Show>
 );
 ```
-Also there is required some handling for ```/signIn``` route and for file get reuqests.
+Also there is some required handling for ```/signIn``` route and for file get requests.
 
-This is haow it is done on a backend server that uses [nestJs](https://github.com/nestjs/nest) :
+This is how it is done on a backend server that uses [nestJs](https://github.com/nestjs/nest) :
 
 ```ts
 
